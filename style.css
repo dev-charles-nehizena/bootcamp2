@@ -9,3 +9,10 @@
         width: 50%;
     }
 }
+@media(max-width:542px){
+    body::before{
+        display: block;
+        content: '';
+        height: 60px;
+    }
+}
